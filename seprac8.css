@@ -1,24 +1,23 @@
-/* Refine headings */
+
 h1 {
-	font-size: 36px; /* Increase font size */
-	font-weight: bold; /* Make the heading bold */
-	text-transform: uppercase; /* Convert text to uppercase */
-	color: #f70000; /* Tomato */
-	margin-bottom: 20px; /* Increase margin */
+	font-size: 36px; 
+	font-weight: bold; 
+	text-transform: uppercase; 
+	color: #f70000; 
+	margin-bottom: 20px; 
 }
 
 p {
-	font-size: 18px; /* Increase font size */
-	color: #232323; /* Dark Gray */
-	margin-bottom: 10px; /* Increase margin */
+	font-size: 18px;
+	color: #232323;
+	margin-bottom: 10px;
 }
 
-/* Enhance the game appearance */
 .ui {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 40px; /* Add more margin at the top */
+	margin-top: 40px;
 }
 
 .row {
@@ -26,80 +25,75 @@ p {
 }
 
 .cell {
-	border: 2px solid #ccc; /* Light Gray border */
+	border: 2px solid #ccc;
 	width: 100px;
 	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 36px; /* Increase font size */
+	font-size: 36px;
 	text-align: center;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
-	background-color: #f0f0f0; /* Light Gray background */
+	background-color: #f0f0f0;
 }
 
 .cell:hover {
-	background-color: #e0e0e0; /* Slightly darker background on hover */
+	background-color: #e0e0e0;
 }
 
-/* Define borders for each cell */
 #b1, #b2, #b3 {
-	border-bottom: 2px solid #ccc; /* Light Gray */
+	border-bottom: 2px solid #ccc;
 }
 
 #b1, #b4, #b7 {
-	border-right: 2px solid #ccc; /* Light Gray */
+	border-right: 2px solid #ccc;
 }
 
 #b3, #b6, #b9 {
-	border-left: 2px solid #ccc; /* Light Gray */
+	border-left: 2px solid #ccc; 
 }
 
 #b7, #b8, #b9 {
-	border-top: 2px solid #ccc; /* Light Gray */
+	border-top: 2px solid #ccc; 
 }
 
 #b1, #b2, #b3, #b4, #b6, #b7, #b8, #b9 {
-	border-radius: 5px; /* Add border radius for rounded corners */
+	border-radius: 5px; 
 }
 
-/* Style for the reset button */
 #but {
-	width: 140px; /* Increase width */
-	height: 60px; /* Increase height */
-	border: 2px solid #01345d; /* Steel Blue border */
-	margin-top: 30px; /* Add more margin at the top */
-	border-radius: 10px; /* Rounded border */
+	width: 140px; 
+	height: 60px; 
+	border: 2px solid #01345d; 
+	margin-top: 30px; 
+	border-radius: 10px; 
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	background-color: #008ce3; /* Light Sky Blue */
-	color: #fff; /* White text */
+	background-color: #008ce3; 
+	color: #fff; 
 	font-size: 20px;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 }
 
 #but:hover {
-	background-color: #01345d; /* Darker Steel Blue on hover */
+	background-color: #01345d; 
 }
 
-/* Player turn space */
 #print {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: #01345d;/* Increase font size */
-	margin-top: 20px; /* Add more margin at the top */
+	color: #01345d;
+	margin-top: 20px;
 }
 
-/* Main Container */
 #main {
 	text-align: center;
-	margin-top: 40px; /* Add more margin at the top */
+	margin-top: 40px; 
 }
 
-/* Game Instruction Text */
 #ins {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: #01345d; /* Steel Blue */
-	font-size: 18px; /* Increase font size */
-	margin-top: 20px; /* Add more margin at the top */
+	color: #01345d; 
+	font-size: 18px; 
+	margin-top: 20px;
 }
